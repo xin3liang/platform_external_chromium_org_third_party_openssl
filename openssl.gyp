@@ -6,7 +6,7 @@
   'targets': [
     {
       'target_name': 'openssl',
-      'type': 'static_library',
+      'type': 'none',
       'dependencies': [
         '../boringssl/boringssl.gyp:boringssl',
       ],
